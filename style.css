@@ -1,0 +1,451 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+.navbar .navleft {
+  width: 50%;
+  height: inherit;
+  padding-top: 25px;
+  padding-left: 300px;
+}
+.navbar .navleft h3 {
+  font-size: 20px;
+  letter-spacing: 4px;
+  font-weight: 900;
+  word-spacing: 5px;
+}
+.navbar .navleft p {
+  padding-left: 17px;
+  padding-top: px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: 200;
+}
+.navbar .navright {
+  width: 50%;
+  height: inherit;
+
+  padding-top: 30px;
+  display: flex;
+  text-direction: column;
+  justify-content: space-around;
+}
+
+.navbar .navright a {
+  text-decoration: none;
+  color: black;
+  font-weight: 200;
+}
+.main {
+  width: 100%;
+  height: 800px;
+  background-image: url("mainimg.jpg");
+  background-attachment: fixed;
+  background-position: center;
+}
+.main h3 {
+  text-align: center;
+  padding-top: 140px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  word-spacing: 3px;
+  font-size: 20px;
+}
+.main h1 {
+  text-align: center;
+  font-size: 810%;
+  letter-spacing: 13px;
+}
+.main h4 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 2.5px;
+  word-spacing: 3px;
+}
+.main button {
+  margin-left: 700px;
+  margin-top: 50px;
+  width: 120px;
+  height: 50px;
+  color: white;
+  background-color: black;
+  transition: 0.5s;
+}
+.main button:hover {
+  color: black;
+  background-color: aliceblue;
+  transition: 0.5s;
+}
+.whitee {
+  width: 100%;
+  height: 900px;
+  background-color: white;
+  display: flex;
+}
+.whitee .white1 {
+  height: 900px;
+  width: 50%;
+}
+.whitee .white2 {
+  height: 900px;
+  width: 50%;
+  background-image: url("man2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.whitee .white1 .line {
+  height: 1px;
+  width: 50px;
+  border: 1px solid black;
+  margin-top: 65px;
+  margin-left: 80px;
+}
+.whitee .white1 h1 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-left: 70px;
+  margin-top: 30px;
+}
+.whitee .white1 h2 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-left: 70px;
+}
+.whitee .white1 p {
+  margin-top: 100px;
+  font-weight: 400;
+  font-size: 15px;
+  padding-inline: 190px;
+  margin-left: -90px;
+}
+.whitee .white1 p #yo {
+  font-weight: 400;
+  font-size: 15px;
+  padding-inline: 190px;
+  margin-left: -90px;
+}
+.whitee .white1 .button1 {
+  width: 100px;
+  height: 40px;
+  background-color: black;
+  color: aliceblue;
+  margin-left: 100px;
+  margin-top: 100px;
+  transition: 0.5s;
+}
+.whitee .white1 .button1:hover {
+  background-color: aliceblue;
+  color: black;
+}
+.whitee .white1 .button2 {
+  width: 140px;
+  height: 40px;
+  background-color: aliceblue;
+  color: black;
+  margin-top: 100px;
+  transition: 0.5s;
+}
+.whitee .white1 .button2:hover {
+  background-color: black;
+  color: aliceblue;
+}
+.main2 {
+  width: 100%;
+  height: 1000px;
+  background-image: url("mauntain.jpg");
+  background-attachment: fixed;
+}
+.main2 .heading {
+  width: 100%;
+  height: 240px;
+  border-top: 1px solid black;
+}
+.main2 .heading #main2line {
+  width: 60px;
+  height: 1px;
+  border: 3px solid black;
+  margin-top: 50px;
+
+  margin-left: 100px;
+}
+.main2 .heading h1 {
+  margin-left: 95px;
+  margin-top: 30px;
+  font-size: 310%;
+  word-spacing: 5px;
+}
+.main2 .heading h2 {
+  margin-left: 95px;
+  font-size: 310%;
+  word-spacing: 5px;
+}
+.main2 .boxes {
+  width: 100%;
+  height: 800px;
+}
+.main2 .boxes .box1 {
+  width: 300px;
+  height: 450px;
+  border: 10px solid black;
+  margin-left: 1000px;
+  margin-top: 50px;
+}
+.main2 .boxes .box2 {
+  width: 300px;
+  height: 450px;
+  border: 10px solid black;
+  margin-top: -450px;
+  margin-left: 600px;
+}
+.main2 .boxes .box3 {
+  width: 300px;
+  height: 450px;
+  border: 10px solid black;
+  margin-top: -450px;
+  margin-left: 200px;
+}
+.main2 .boxes .box3 h2 {
+  font-size: 200%;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.main2 .boxes .box3 h3 {
+  font-size: 180%;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.main2 .boxes .box3 h4 {
+  font-weight: 200;
+  text-align: center;
+  padding-top: 10px;
+}
+.main2 .boxes .box3 p {
+  width: 250px;
+  height: 1px;
+  border: 1px solid black;
+  margin-top: 40px;
+  margin-left: 15px;
+}
+.main2 .boxes .box3 .min {
+  font-weight: 200;
+  text-align: center;
+  padding-top: 30px;
+}
+.main2 .boxes .box2 h2 {
+  font-size: 200%;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.main2 .boxes .box2 h3 {
+  font-size: 200%;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.main2 .boxes .box2 h4 {
+  font-weight: 200;
+  text-align: center;
+  padding-top: 10px;
+}
+.main2 .boxes .box2 p {
+  width: 250px;
+  height: 1px;
+  border: 1px solid black;
+  margin-top: 40px;
+  margin-left: 15px;
+}
+.main2 .boxes .box1 h2 {
+  font-size: 180%;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.main2 .boxes .box1 h4 {
+  font-weight: 200;
+  text-align: center;
+  padding-top: 10px;
+}
+.main2 .boxes .box1 p {
+  width: 250px;
+  height: 1px;
+  border: 1px solid black;
+  margin-top: 40px;
+  margin-left: 15px;
+}
+.main2 .boxes .box3 .min1 {
+  font-weight: 200;
+  text-align: center;
+  padding-top: 30px;
+}
+.main2 .boxes .b3 {
+  width: 100px;
+  height: 50px;
+  background-color: black;
+  color: aliceblue;
+  margin-top: 30px;
+  margin-left: 90px;
+  transition: 0.5s;
+}
+.main2 .boxes .b2 {
+  width: 100px;
+  height: 50px;
+  background-color: black;
+  color: aliceblue;
+  margin-top: 100px;
+  margin-left: 90px;
+  transition: 0.5s;
+}
+.main2 .boxes .b1 {
+  width: 100px;
+  height: 50px;
+  background-color: black;
+  color: aliceblue;
+  margin-top: 115px;
+  margin-left: 90px;
+  transition: 0.5s;
+}
+.main2 .boxes .b1:hover {
+  background-color: aliceblue;
+  color: black;
+}
+.main2 .boxes .b2:hover {
+  background-color: aliceblue;
+  color: black;
+}
+.main2 .boxes .b3:hover {
+  background-color: aliceblue;
+  color: black;
+}
+.main2 .boxes .lastbutton {
+  height: 40px;
+  width: 150px;
+  background-color: black;
+  color: aliceblue;
+  margin-top: 150px;
+  margin-left: 670px;
+  transition: 0.5s;
+}
+.main2 .boxes .lastbutton:hover {
+  background-color: aliceblue;
+  color: black;
+}
+.footer{
+  height: 610px;
+  width: 100%;
+  /* border: 1px solid black; */
+  background-color: #57BBBF;
+  display: flex;
+}
+.footer .foot1{
+  margin-left: 280px;
+}
+.footer .foot1 .line{
+  height: 1px;
+  width: 40px;
+  border: 1px solid black;
+  margin-top: 45px;
+}
+.footer .foot1 h4{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 3.5px;
+  margin-top: 10px;
+}
+.footer .foot1 .text1{
+  margin-top: 45px;
+}
+.footer .foot1 .text1 p{
+  font-size: 14px;
+  font-weight: 300;
+}
+.footer .foot1 .text2{
+  margin-top: 30px;
+}
+.footer .foot1 .text2 p{
+  font-size: 14px;
+  font-weight: 300;
+}
+.footer .foot1 h2{
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 27px;
+}
+.footer .foot1 .icon{
+  font-size: 19px;
+  margin-top: 25px;
+  display: flex;
+  gap: 22px;
+}
+.footer .foot1 .text4{
+  margin-top: 70px;
+}
+.footer .foot1 .text4 p{
+  font-size: 14px;
+  font-weight: 300;
+}
+.footer .foot2{
+  
+   /* position: relative;  */
+}
+.footer .foot2 form{
+   /* position: absolute;
+  left: 700px;
+  bottom: 100px; 
+  z-index: 1; */
+  margin-left: 280px;
+  margin-top: 45px;
+}
+.footer .foot2 form label{
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  line-height: 43px;
+  
+}
+.footer .foot2 form input{
+  height: 35px;
+  width: 450px;
+  background-color: #57BBBF;
+  border: 2px solid black;
+}
+.footer .foot2 form input:hover{
+  border: 3px solid black;
+}
+
+.footer .foot2 form #message{
+  height: 130px;
+}
+.footer .foot2 form button{
+  height: 40px;
+  width: 140px;
+  border-radius: 0%;
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+  border: none;
+  margin-left: 310px;
+}
+.footer .foot2 form button:hover{
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+
+
